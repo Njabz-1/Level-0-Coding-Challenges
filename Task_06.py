@@ -16,4 +16,4 @@ def max_num1(*args):
             args = i
     return args
 
-max_num1(10,12,9,15)
+max_num1(10,12,9,15,16)

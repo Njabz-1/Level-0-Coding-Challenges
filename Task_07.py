@@ -1,11 +1,11 @@
-def cel_to_fah(celsius):
+def celsius_to_fahrenheit(celsius):
     convert = (9 * celsius) / 5 + 32
     return convert
 
-cel_to_fah(0)
+celsius_to_fahrenheit(0)
 
-def fah_to_cel(fahrenheit):
+def fahrenheit_to_celsius(fahrenheit):
     convert = (5/9) * (fahrenheit -32)
     return convert
 
-fah_to_cel(32)
+fahrenheit_to_celsius(32)
